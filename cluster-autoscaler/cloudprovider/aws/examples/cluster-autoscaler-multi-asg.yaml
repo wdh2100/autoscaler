@@ -159,7 +159,6 @@ spec:
             - --stderrthreshold=info
             - --cloud-provider=aws
             - --skip-nodes-with-local-storage=false
-            - --expander=least-waste
             - --nodes=1:10:k8s-worker-asg-1
             - --nodes=1:3:k8s-worker-asg-2
           volumeMounts:
